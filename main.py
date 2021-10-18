@@ -2,7 +2,7 @@ import json
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 
-file = open('chatbot2/info.json','r')
+file = open("chatbot2/info.json","r")
 info = json.load(file)
 
 CHANNEL_ACCESS_TOKEN = info["CHANNEL_ACCESS_TOKEN"]
